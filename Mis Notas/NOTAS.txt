@@ -1,0 +1,10 @@
+   
+   MAPEANDO
+   
+    Forma #1  {images.map((img) => {
+          return <li key={img.id}> {img.title}</li>
+        })}
+
+     Forma #2  {images.map((img) => (
+      <li key={img.id}> {img.title}</li>
+        ))}
